@@ -43,7 +43,6 @@ function purchaseProd() {
 
                 if (quantity <= prodData.stock_quantity)
             }
-            }
         })
     })
 }
