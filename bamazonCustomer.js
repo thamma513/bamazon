@@ -41,7 +41,10 @@ function purchaseProd() {
             } else {
                 var prodData = data[0];
 
-                if (quantity <= prodData.stock_quantity)
+                if (quantity <= prodData.quantity) {}
+                console.log("The requested product is in stock, placing your order...");
+
+                var updateProd = "UPDATE products SET quantity = " +
             }
         })
     })
